@@ -55,9 +55,6 @@ body > main {
 body > main > img {
   height: 17em;
   width: 17em;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
   border-radius: 10px;
 }
 
