@@ -48,6 +48,8 @@ body > main {
           align-items: center;
   border-radius: 10px;
   text-align: center;
+  -webkit-box-shadow: 0 0 15px #bbb;
+          box-shadow: 0 0 15px #bbb;
 }
 
 body > main > img {
