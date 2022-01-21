@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--light-gray);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body > main {
+  background-color: white;
+  height: auto;
+  width: 17em;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+body > main > img {
+  height: 17em;
+  width: 17em;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-radius: 10px;
+}
+
+body > main > article {
+  width: 16em;
+}
+
+body > main > article > h1 {
+  font-size: 1.2em;
+}
+
+body > main > article > p {
+  color: var(--grayish-blue);
+}
+
+body > footer {
+  position: absolute;
+  bottom: 0;
+  left: 34%;
+}
+
+body > footer > .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body > footer > .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
