@@ -70,12 +70,6 @@ body > main > article > p {
   color: var(--grayish-blue);
 }
 
-body > footer {
-  position: absolute;
-  bottom: 0;
-  left: 34%;
-}
-
 body > footer > .attribution {
   font-size: 11px;
   text-align: center;
